@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <header> {isMenuOpen ? 
       <section>
-      <div className="fixed top-0 z-50 flex h-24 w-screen flex-row items-center justify-between border-b-2 bg-background  px-4">
+      <div className="fixed top-0 z-50 flex h-20 w-screen flex-row items-center justify-between border-b-2 bg-background  px-4">
         <div className="top-0 flex h-[72px] items-center md:h-20 xl:h-[88px]">
           <NavTitle />
         </div>
@@ -24,7 +24,7 @@ const NavBar = () => {
       </button>
     </section>
       :
-    <section className='top-0 flex h-24 p-2 w-screen items-center justify-between border-b-2 px-4 lg:px-8'>
+    <section className='top-0 flex h-20 p-2 w-screen items-center justify-between border-b-2 px-4 lg:px-8'>
       <NavTitle />
       <NavLinks />
       <div className='flex items-center'>

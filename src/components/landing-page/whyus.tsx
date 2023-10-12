@@ -4,9 +4,9 @@ import { useId } from 'react'
 import Image, { type ImageProps } from 'next/image'
 import { Tab } from '@headlessui/react'
 import { cn } from '@/lib/utils'
-import screenshotContacts from 'public/newhero.svg'
-import screenshotInventory from 'public/newhero.svg'
-import screenshotProfitLoss from 'public/newhero.svg'
+import screenshotContacts from '/public/newhero.svg'
+import screenshotInventory from '@/public/newhero.svg'
+import screenshotProfitLoss from '@/public/newhero.svg'
 
 interface Feature {
   name: React.ReactNode

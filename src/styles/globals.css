@@ -13,6 +13,15 @@
     --popover: 0 0% 100%;
     --popover-foreground: 224 71.4% 4.1%;
 
+    --firstcolor: 240 10% 4%;
+    --firstcolor-foreground: 210 40% 98%;
+
+    --secondcolor: 24 96% 42%;
+    --secondcolor-foreground: 0 0% 100%;
+    
+    --thirdcolor: 164 24% 39%;
+    --thirdcolor-foreground: 210 40% 98%;
+
     --primary: 220.9 39.3% 11%;
     --primary-foreground: 210 20% 98%;
 
@@ -44,6 +53,15 @@
 
     --popover: 224 71.4% 4.1%;
     --popover-foreground: 210 20% 98%;
+
+    --firstcolor: 210 40% 98%;
+    --firstcolor-foreground: 240 10% 4%;
+
+    --secondcolor: 24 96% 42%;
+    --secondcolor-foreground: 210 40% 98%;
+
+    --thirdcolor: 164 24% 39%;
+    --thirdcolor-foreground: 210 40% 98%;
 
     --primary: 210 20% 98%;
     --primary-foreground: 220.9 39.3% 11%;
