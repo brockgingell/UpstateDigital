@@ -19,7 +19,7 @@ export default function Hero() {
               Modern Web Solutions That Boost Visibility and Drive Growth. Headache-free Web Solutions With 24/7 Support.
             </h2>
             <motion.div whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
-              <Link href={siteConfig.mainNav[2].href} className={`sm:hidden ${buttonVariants({variant: 'thirdary'})}`}>
+              <Link href={siteConfig.mainNav[2].href} className={`sm:hidden ${buttonVariants({variant: 'primary'})}`}>
                 Book a Free Consultation →
               </Link>
             </motion.div>
