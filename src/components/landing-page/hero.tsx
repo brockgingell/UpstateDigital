@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
         <div className='hidden w-full flex-row justify-evenly sm:flex'>
           <motion.div whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
-            <Link href={siteConfig.mainNav[2].href} className={` ${buttonVariants({variant: 'thirdary'})}`}>
+            <Link href={siteConfig.mainNav[2].href} className={` ${buttonVariants({variant: 'primary'})}`}>
               Book a Free Consultation →
             </Link>
           </motion.div>
