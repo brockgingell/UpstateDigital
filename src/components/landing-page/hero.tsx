@@ -13,7 +13,7 @@ export default function Hero() {
         <div className='flex flex-col items-center sm:flex-row'>
           <div className='flex flex-col items-center sm:w-1/2'>
             <h1 className='text-left text-3xl font-bold tablet:text-4xl xl:text-5xl '>
-              Boost Your Business by Upgrading Your Outdated Website.
+              Boost Your Business by Upgrading Your Outdated Website
             </h1>
             <h2 className='my-1 mb-3 text-left text-lg tablet:font-medium xl:text-2xl'>
               Modern Web Solutions That Boost Visibility and Drive Growth. Headache-free Web Solutions With 24/7 Support.
