@@ -5,6 +5,7 @@ import NavBar from '@/components/navbar/navbar'
 import SiteFooter from '@/components/site-footer'
 import { motion, AnimatePresence } from 'framer-motion'
 import { fontSans } from '@/lib/fonts'
+import { TailwindIndicator } from '@/components/ui/tailwind-indicator'
 
 
 export default function RootLayout({
@@ -31,6 +32,7 @@ export default function RootLayout({
           >
             {children}
           </motion.div>
+          <TailwindIndicator />
         </AnimatePresence>
       </ThemeProvider>
       </body>
