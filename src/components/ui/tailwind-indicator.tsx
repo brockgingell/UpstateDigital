@@ -8,7 +8,6 @@ export function TailwindIndicator() {
       <div className="hidden mobilelg:block tablet:hidden">m-lg</div>
       <div className="hidden tablet:block xs:hidden">tablet</div>
       <div className="hidden xs:block sm:hidden">xs</div>
-      <div className="hidden sm:block md:hidden">xs</div>
       <div className="hidden sm:block md:hidden">sm</div>
       <div className="hidden md:block lg:hidden">md</div>
       <div className="hidden lg:block xl:hidden">lg</div>

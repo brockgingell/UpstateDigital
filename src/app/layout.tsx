@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`min-h-screen ${fontSans.className}`}>
+      <body className={`min-h-screen w-screen ${fontSans.className}`}>
       <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -23,15 +23,15 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <AnimatePresence>
-          <NavBar />
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 2 }}
-            transition={{ delay: .25 }}
-          >
-            {children}
-          </motion.div>
+            <NavBar />
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 2 }}
+              transition={{ delay: .25 }}
+            >
+              {children}
+            </motion.div>
           <TailwindIndicator />
         </AnimatePresence>
       </ThemeProvider>
