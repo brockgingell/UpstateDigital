@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={fontSans.className}>
+      <body className={`min-h-screen ${fontSans.className}`}>
       <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -31,7 +31,6 @@ export default function RootLayout({
           >
             {children}
           </motion.div>
-          <SiteFooter />
         </AnimatePresence>
       </ThemeProvider>
       </body>
