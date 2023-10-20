@@ -6,8 +6,6 @@ import { siteConfig } from '@/config/site'
 import { buttonVariants } from '@/components/ui/button'   
 import { motion } from 'framer-motion'
 import Devices from 'public/herofinal.svg'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
 
 export default function Hero() {
   return (
