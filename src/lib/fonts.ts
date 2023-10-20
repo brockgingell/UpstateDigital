@@ -1,4 +1,4 @@
-import { JetBrains_Mono as FontMono, Montserrat as FontSans, Rokkitt as FontSerif } from "next/font/google"
+import { Lexend as FontMono, Montserrat as FontSans, Rokkitt as FontSerif } from "next/font/google"
 
 export const fontSans = FontSans({
   subsets: ["latin"],
