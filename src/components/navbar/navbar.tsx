@@ -24,7 +24,7 @@ const NavBar = () => {
       </button>
     </section>
       :
-    <section className='top-0 flex h-20 p-2 w-screen items-center justify-between border-b-2 px-4 lg:px-8'>
+    <section className='top-0 flex h-[88px] pt-1 w-screen items-center justify-between border-b-2 px-4 lg:px-8'>
       <NavTitle />
       <NavLinks />
       <div className='flex items-center'>

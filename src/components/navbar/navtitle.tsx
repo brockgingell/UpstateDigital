@@ -8,8 +8,8 @@ const NavTitle = () => {
   return (
     <section className={fontMono.className}>
       <Link href="/" className='flex flex-row items-center gap-[3px]'>
-        <Icon className='h-[72px] w-auto'/>
-        <h1 className='font-medium text-2xl leading-[28px]'>Upstate <br/> Digital <br /> Design </h1>
+        <Icon className='h-[76px] w-auto'/>
+        <h1 className='font-semibold text-2xl leading-[27px]'>Upstate <br/> Digital <br /> Design </h1>
       </Link>
     </section>
   )  
