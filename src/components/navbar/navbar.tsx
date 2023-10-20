@@ -9,7 +9,7 @@ import { MenuIcon, XIcon } from "lucide-react"
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
   return (
-    <header className='mt-2 h-[88px] w-full p-4'> {isMenuOpen ? 
+    <header className='mt-1 h-[88px] w-full p-4'> {isMenuOpen ? 
       <section className='flex items-center justify-between border-b-2'>
         <NavTitle />
         <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -17,7 +17,7 @@ const NavBar = () => {
         </button>
     </section>
       :
-    <section className='flex justify-between items-center border-b-2 pb-3'>
+    <section className='flex justify-between items-center border-b-2 pb-1'>
       <NavTitle />
       <NavLinks />
       <div className='flex items-center'>
