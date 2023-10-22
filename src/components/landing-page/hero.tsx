@@ -1,11 +1,11 @@
 'use client'
 import Image from 'next/image'
-import background from '@/public/herobg.png'
+import background from '/public/herobg.png'
 import Link from 'next/link'
 import { siteConfig } from '@/config/site'
 import { buttonVariants } from '@/components/ui/button'   
 import { motion } from 'framer-motion'
-import Heropic from '@/public/HeroFinal.svg'
+import Heropic from '/public/herofinal.svg'
 
 export default function Hero() {
   return (
