@@ -1,7 +1,7 @@
 import {FC} from 'react' 
 import Link from 'next/link'
 import Image from 'next/image'
-import Icon from '/public/IconFinaltwo.svg'
+import Icon from '/public/icon-new.svg'
 import { fontMono } from '@/lib/fonts'
 
 const NavTitle = () => {
